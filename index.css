@@ -1,0 +1,123 @@
+    html,
+    body {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .slider-img {
+        width: auto;
+        max-width: 1800px;
+    }
+    
+    .slider-content-headline {
+        font-size: 4.2rem;
+        line-height: 70px;
+        font-family: sans-serif;
+        font-weight: 700;
+        text-shadow: 0 0 5px black;
+        margin-bottom: 0px;
+    }
+    
+    .slider-container {
+        text-align: right;
+        color: white;
+        width: auto;
+        max-width: 1800px;
+    }
+    
+    .slider-content-text {
+        font-size: 2.4rem;
+        line-height: 50px;
+        font-family: sans-serif;
+        font-weight: 700;
+        text-shadow: 0 0 5px black;
+        margin-top: 0px;
+    }
+    
+    .slider-content-button {
+        font-family: sans-serif;
+        font-weight: 700;
+        position: absolute;
+        right: 0px;
+        color: black;
+        top: 300px;
+        background-color: white;
+        text-align: center !important;
+        padding-left: 66px;
+        padding-right: 66px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        margin-right: 25px;
+        text-decoration-line: none;
+    }
+    
+    .slider-content-button:hover {
+        background-image: url(https://wallpaperaccess.com/full/916613.png);
+        background-position: center;
+        background-size: 637px 306px;
+    }
+    
+    .slider-content {
+        position: absolute;
+        right: auto;
+        top: 0px;
+        width: auto;
+        max-width: 1800px;
+        padding-right: 25px;
+        text-align: right;
+        padding-left: 1000px;
+    }
+    
+    .column {
+        float: left;
+        width: 25%;
+    }
+    
+    @media screen and (max-width: 992px) {
+        .column {
+            width: 50%;
+        }
+    }
+    
+    @media screen and (max-width: 600px) {
+        .column {
+            width: 100%;
+        }
+    }
+    
+    body {
+        background-color: rgba(242, 242, 242, 255);
+    }
+    
+    .wrapper {
+        background-color: white;
+        max-width: 1800px;
+        margin-right: auto;
+        margin-left: auto;
+        height: 100%;
+    }
+    
+    .quicklinks-text {
+        width: 50px;
+        font-family: sans-serif;
+        padding-top: 10px;
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-content: space-between;
+    }
+    
+    .quicklinks {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    a {
+        text-decoration-line: none;
+    }
